@@ -1,9 +1,7 @@
 import './App.css';
-import Features from './components/Features';
 import Footer from './components/Footer';
 import Form from './components/Form';
 import Navbar from './components/Navbar'
-import Pricing from './components/Pricing';
 
 import{
   Routes as Switch,
@@ -21,8 +19,6 @@ function App() {
     <div className='container'>
     <Switch>
       <Route path="/" element={<Form />} />
-      <Route path="/pricing" element={<Pricing />} />
-      <Route path="/features" element={<Features />} />
     </Switch>
     </div>
 
