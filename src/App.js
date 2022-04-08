@@ -1,9 +1,7 @@
 import './App.css';
-import Features from './components/Features';
 import Footer from './components/Footer';
 import Form from './components/Form';
 import Navbar from './components/Navbar'
-import Pricing from './components/Pricing';
 
 import{
   Routes as Switch,
@@ -11,7 +9,11 @@ import{
   BrowserRouter as Router,
 } from "react-router-dom"
 
+<<<<<<< HEAD
 // This is Master Branch
+=======
+// This is Version 2 
+>>>>>>> version-2
 
 function App() {
   return (
@@ -21,8 +23,6 @@ function App() {
     <div className='container'>
     <Switch>
       <Route path="/" element={<Form />} />
-      <Route path="/pricing" element={<Pricing />} />
-      <Route path="/features" element={<Features />} />
     </Switch>
     </div>
 
