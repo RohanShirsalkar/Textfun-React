@@ -9,11 +9,7 @@ import{
   BrowserRouter as Router,
 } from "react-router-dom"
 
-<<<<<<< HEAD
 // This is Master Branch
-=======
-// This is Version 2 
->>>>>>> version-2
 
 function App() {
   return (
